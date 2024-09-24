@@ -171,11 +171,12 @@ strong{
     width: 100%;
 }
 
-.presentation img{
-    animation: fade-in linear both;
+#carouselOpeningFade img, .presentation iframe{
+    /* animation: fade-in linear both;
     animation-timeline: view();
     animation-range-start: 10vh;
-    animation-range-end: 50vh;
+    animation-range-end: 50vh; */
+    border-radius: 0.75rem;
 }
 
 @keyframes fade-in {
@@ -218,4 +219,8 @@ figcaption{
 
 .logos-socials img{
     max-height: 4rem;
+}
+
+iframe{
+    height: 609px;
 }
